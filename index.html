@@ -2,44 +2,65 @@
 
 <html>
 
-	<head>
-		<title>JM Viagens - Página Principal</title>	
-		<meta charset="utf-8" />
-	</head>
+<head>
+	<title>JM Viagens - Página Principal</title>	
+	<meta charset="utf-8" />
 
-	<body>
-		
-		<table border="0" width="900" align="center">
-			<tr>
-				<td> <img src="imagens/logo.png" /></td>
-				<td align="right">
-					<a href="index.html">Home</a> |
-					<a href="quem-somos.html">Quem Somos</a> |
-					<a href="contato.html">Contato</a>
-				</td>
-			</tr>
+	<style type="text/css">
 
-			<tr>
-				<td colspan="2">
-					<img src="imagens/principal.png" />
-				</td>
-			</tr>
+	/*Um identificador*/
+	#imagem_principal{
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 50%;
+    	border: 3px solid green;
+	}
 
-			<tr>
-				<td colspan="2">
-					<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel orci diam. Maecenas elit augue, venenatis sed fringilla non, finibus et leo. Mauris malesuada eros quis dapibus consectetur. Fusce quis sagittis tellus, vitae semper eros. Cras id sodales diam, eu ornare velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer hendrerit a libero non consectetur. Nulla dignissim dolor eget tristique hendrerit. Donec gravida tincidunt lectus. In mattis elit nec est semper posuere. Vivamus mollis augue non odio malesuada, at sodales lectus cursus. Morbi eu lacus aliquet, sodales lectus sit amet, rutrum quam. Integer nec sollicitudin lacus. Vivamus eget nunc a eros laoreet dictum.</p>
+	/*Um seletor*/
+	p{
+		text-align: justify;
+		text-indent: 50px;
+		line-height: 1.5;
+		font-family: "Times New Roman", Times, serif;
+	}
 
-					 <p>
-					Vestibulum ut quam ac leo tincidunt semper. Quisque lacus turpis, tincidunt non urna eu, maximus ultrices sapien. Curabitur purus lectus, ullamcorper ac leo sit amet, imperdiet vestibulum quam. Donec interdum, tortor in luctus maximus, lorem turpis varius lacus, quis auctor libero tortor sit amet metus. Duis ornare arcu ante. Donec a libero id elit vulputate rutrum sit amet nec elit. Duis viverra justo lorem, a elementum arcu varius vel.</p>
+	/*Uma classe*/
+	.rodape{
+		text-align: center;
+		text-decoration: underline;
+		direction: rtl;
+	}
 
-				</td>
-			</tr>
-			<tr>
-				<td align="center" colspan="2"><h4>Todos os direitos reservados.</h4></td>
-			</tr>
-		</table>
+</style>
+
+</head>
+
+<body>
+
+	<div id="imagem_principal">
+		<img src="imagens/logo.png" />		
+	</div>
+
+
+
+	<a href="index.html">Home</a> |
+	<a href="quem-somos.html">Quem Somos</a> |
+	<a href="contato.html">Contato</a>
+
+	<img src="imagens/principal.png" />
+
+
+	<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel orci diam. Maecenas elit augue, venenatis sed fringilla non, finibus et leo. Mauris malesuada eros quis dapibus consectetur. Fusce quis sagittis tellus, vitae semper eros. Cras id sodales diam, eu ornare velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer hendrerit a libero non consectetur. Nulla dignissim dolor eget tristique hendrerit. Donec gravida tincidunt lectus. In mattis elit nec est semper posuere. Vivamus mollis augue non odio malesuada, at sodales lectus cursus. Morbi eu lacus aliquet, sodales lectus sit amet, rutrum quam. Integer nec sollicitudin lacus. Vivamus eget nunc a eros laoreet dictum.</p>
+
+	<p>
+	Vestibulum ut quam ac leo tincidunt semper. Quisque lacus turpis, tincidunt non urna eu, maximus ultrices sapien. Curabitur purus lectus, ullamcorper ac leo sit amet, imperdiet vestibulum quam. Donec interdum, tortor in luctus maximus, lorem turpis varius lacus, quis auctor libero tortor sit amet metus. Duis ornare arcu ante. Donec a libero id elit vulputate rutrum sit amet nec elit. Duis viverra justo lorem, a elementum arcu varius vel.</p>
+
+
+	<h4 class="rodape">Todos os direitos reservados.</h4>
+
 
 	</body>
 
-</html>
+	</html>
