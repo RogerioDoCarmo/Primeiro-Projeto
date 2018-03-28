@@ -8,13 +8,23 @@
 
 	<style type="text/css">
 
-	/*Um identificador*/
-	#imagem_principal{
+	/*Uma classe*/
+	.imagem-topo{
 		display: block;
-    	margin-left: auto;
-    	margin-right: auto;
-    	width: 50%;
-    	border: 3px solid green;
+    	margin-left: left;
+    	/*margin-right: auto;*/
+    	margin-bottom: 20px;
+    	width: 30%;
+    	border: 2px solid gray;
+	}
+
+	/*Um id*/
+	#imagem-central{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+		width: 100%
 	}
 
 	/*Um seletor*/
@@ -32,33 +42,42 @@
 		direction: rtl;
 	}
 
+	.negrito{
+		font-weight: bold;
+	}
+
+	#links-principais{
+		color: #BD3909;
+		font-weight: bold;
+		text-align: center;
+	}
+
 </style>
 
 </head>
 
 <body>
 
-	<div id="imagem_principal">
-		<img src="imagens/logo.png" />		
+	<img class="imagem-topo" src="imagens/logo.png" />		
+
+
+	<div id="links-principais">
+		<a href="index.html">Home</a> |
+		<a href="quem-somos.html">Quem Somos</a> |
+		<a href="contato.html">Contato</a>
 	</div>
 
-
-
-	<a href="index.html">Home</a> |
-	<a href="quem-somos.html">Quem Somos</a> |
-	<a href="contato.html">Contato</a>
-
-	<img src="imagens/principal.png" />
+	<img id="imagem-central" src="imagens/principal.png" />
 
 
 	<p>
 	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel orci diam. Maecenas elit augue, venenatis sed fringilla non, finibus et leo. Mauris malesuada eros quis dapibus consectetur. Fusce quis sagittis tellus, vitae semper eros. Cras id sodales diam, eu ornare velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer hendrerit a libero non consectetur. Nulla dignissim dolor eget tristique hendrerit. Donec gravida tincidunt lectus. In mattis elit nec est semper posuere. Vivamus mollis augue non odio malesuada, at sodales lectus cursus. Morbi eu lacus aliquet, sodales lectus sit amet, rutrum quam. Integer nec sollicitudin lacus. Vivamus eget nunc a eros laoreet dictum.</p>
 
 	<p>
-	Vestibulum ut quam ac leo tincidunt semper. Quisque lacus turpis, tincidunt non urna eu, maximus ultrices sapien. Curabitur purus lectus, ullamcorper ac leo sit amet, imperdiet vestibulum quam. Donec interdum, tortor in luctus maximus, lorem turpis varius lacus, quis auctor libero tortor sit amet metus. Duis ornare arcu ante. Donec a libero id elit vulputate rutrum sit amet nec elit. Duis viverra justo lorem, a elementum arcu varius vel.</p>
+	Vestibulum ut quam ac leo tincidunt semper. <span class="negrito">Quisque lacus turpis, tincidunt non urna eu, maximus ultrices sapien.</span> Curabitur purus lectus, ullamcorper ac leo sit amet, imperdiet vestibulum quam. Donec interdum, tortor in luctus maximus, lorem turpis varius lacus, quis auctor libero tortor sit amet metus. Duis ornare arcu ante. Donec a libero id elit vulputate rutrum sit amet nec elit. Duis viverra justo lorem, a elementum arcu varius vel.</p>
 
 
-	<h4 class="rodape">Todos os direitos reservados.</h4>
+	<h4 class="rodape"> Todos os direitos reservados.</h4>
 
 
 	</body>
